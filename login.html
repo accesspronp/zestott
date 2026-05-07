@@ -34,6 +34,7 @@ logoutBtn.addEventListener('click',()=>{localStorage.removeItem('zest_current_us
 <script>
 (function(){
   const pop=document.getElementById('purchasePop');
+  return; // Disabled: no fake/random purchase popups
   if(!pop) return;
   const fallbackProducts=[
     {name:'Netflix Premium',plan:'6 Months'},{name:'Netflix Premium',plan:'12 Months'},
